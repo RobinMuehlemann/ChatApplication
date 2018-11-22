@@ -5,7 +5,7 @@ class DateTimeClient {
     public static void main(String[] args) {
         String hostName = "";  // Rechner-Name bzw. -Adresse
         int port;              // Port-Nummer
-        Socket c = null;       // Socket fuer die Verbindung zum Server
+        Socket c = null;       // Socket fuer die Verbindung zum Serverd
 
         try {
             hostName = args[0];
